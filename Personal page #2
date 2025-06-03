@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+<nav>   <a href="https://codepen.io/Hosna-Zainab-Afssari/pen/zxYJqzp">Home</a>
+   <a href="https://codepen.io/Hosna-Zainab-Afssari/pen/WbNgwOw"> About Me</a>
+    <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a> </nav>
+     <style>
+body {
+          
+            background-color:pink;
+            text-align: center;
+        }
+
+        /* Box styling */
+        .section {
+            backround-color:black;
+            padding: 15px;
+       border: 10px solid black;
+            margin:10px;
+        }
+
+        /* Side-by-side layout styling */
+        .side-by-side {
+            /* Add display: inline-block */
+            width: 45%;
+           background color: lightblue;
+          padding: 15px;
+            border:10px solid black;
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Header and Intro -->
+    <div class="section">
+        <h1>Hosna  📖</h1>
+        <p> My name is Hosna.
+      I am from Iran but I was born in Kirkland Seattle, Washington State. I moved to California when I was 5 </p>
+    </div>
+
+    <!-- Section 2: Hobbies or Interests -->
+    <div class="section">
+        
+    
+      
+        <h2>My Favorite authors </h2>
+        <ul>
+            <li>James Patterson</li>
+          <li>Shannon Hale</li>
+            <li> Rick Riordan</li>
+          <li> Chris Grabenstein</li>
+           <li> Stuart Gibbs </li>
+          <li>Shifa Saltagi Safadi
+         </li>
+           <li> Gillian McDunn</li>
+
+            
+          </ul>
+    </div>
+
+    <!-- Section 3: Side-by-side layout -->
+        <div class="side-by-side">
+        <h3>Fun facts </h3>
+        <p>My favorite sport is soccer. </p> <p>I used to have chickens and a rooster but then the rooster decided to run away.</p> <p>My birthday is March 26 2012.</p> <p>I loooooooooove reading</p>
+  </div>
+
+     <div class="side-by-side">
+ <h3> My five top fav Sports</h3>
+         <ol>
+         <li>Soccer</li>
+         <li>Swimming</li>
+           <li>Volleyball</li>
+         <li>Basketball
+        </li>
+           <li>Horseback riding</li>
+         <li>Badminton</li>
+         <li>Ping Pong</li>
+          
+    </div>
+
+</body>
+</html>
